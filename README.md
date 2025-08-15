@@ -2,9 +2,10 @@
 ---
 Projeto visa a criacao de um circuito dimmerivel com fotosensibilidade para ajuste da luz ambiente. Utilizando:
 - Transistor NPN (BC548, 2N2222): Atua como chave, controlando a corrente para o LED;
-- LDR: Sensor para detectar luz no ambiente;
+- LDR 7mm: Sensor para detectar luz no ambiente;
 - Resistor de 1kΩ: Para limitar a corrente na base do transistor;
 - Resistor de 100Ω a 330Ω: Limita a corrente para o LED, o valor vai variar de acordo com a tensão do LED;
+- Potenciometro de 100k: para calibragem mais precisa do brilho;
 - Fonte de alimentação de 9v a 12v;
 
 Caso deseje utilizar uma fita de LED com a tensão de 12v, utilize um MOSFET de potencia de canal N (IRF540 ou IRF520)
